@@ -1,31 +1,39 @@
 html{
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Helvetica", serif;
 	font-size: 14px;
+	background: green;
+	color: white;
 }
 p {
-  color: DarkSlateGray;
+  color: yellow;
 }
 p,li{
-	font-size: 1.4rem;
+	font-size: 4rem;
 }
 h1 {
-	font-size: 2.3rem;
+	font-size: 7rem;
 }
 h2{
-	font-size: 2.1rem;
+	font-size: 6rem;
 
 }
 li{
-	line-height: 1.5;
+	float: left;
+	width: 300px;
+	background: purple;
+	text-align: center;
+	border: black 1px solid;
 }
 a:link{
 	color: red;
+	text-decoration: none;
 }
 a:visited{
-	color: green;
+	color: white;
+	text-decoration: none;
 }
 a:hover{
-	color: purple;
+	color: gray;
 	text-decoration: none;
 }
 a:active{
@@ -52,4 +60,17 @@ header h1 {
 
 main {
 	max-width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}	
+
+footer{
+	color: yellow;
+	background: black;
+	padding: 0px 40px;
+	text-align: right;
 }
