@@ -1,0 +1,61 @@
+html{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+p,li{
+	font-size: 1.4rem;
+}
+h1 {
+	font-size: 2.3rem;
+}
+h2{
+	font-size: 2.1rem;
+
+}
+li{
+	line-height: 1.5;
+}
+a:link{
+	color: red;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: purple;
+	text-decoration: none;
+}
+a:active{
+	color:a.background;
+	background: a.color;
+	text-decoration: none;
+}
+
+header, main {
+	padding: 2.5rem;
+}
+
+header{
+	background-color: grey;
+	color: black;
+}
+
+header h1 {
+	line-height: 2px;
+}
+
+main {
+	background: lightgrey;
+	color: black;
+	max-width: 400px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding-left: 30px;
+}
+
+section {
+	font-size: 18px;
+}
