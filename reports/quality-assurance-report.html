@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Quality Assurance Report</title>
+    <style>
+      html {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer {
+        border-top: 6px solid #999;
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+      header h1 {
+        background-color: #52528c;
+        color: #ccc;
+        padding: 0.5em;
+        border-top: 5px solid #52528c;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }
+      header nav ul {
+        list-style-type: none;
+        background-color: #999;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #666;
+      }
+      dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #top-dl dd {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+      #top-dl dd:last-child {
+        border-bottom: 2px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+      .smaller {
+        font-size: 0.8em;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 6px;
+      }
+      td.unused {
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Quality Assurance Report</h1>
+      <div w3-include-html="nav.html"></div>
+      <!-- reference the location of your nav.html -->
+    </header>
+    <main>
+      <section>
+        <h2>Research Questions</h2>
+        <dl id="top-dl">
+          <dt>What does Quality Assurance mean for web site development?</dt>
+          <dd>Using automated, programmable systems like Selenium to run testing on the ui, or a QA engineer will create tests that he runs daily to find issues, or there are tests that run on CI servers that will not allow you to commit code until all tests pass, or a combination of the three.</dd>
+          <dt>Describe the two key principles of Quality Assurance: "Fit for Purpose" and "Right First Time."</dt>
+          <dd>"Fit for Purpose"  : The product should be suitable for the intended purpose</dd>
+          <dd>"Right First Time" : Mistakes should be eliminated</dd>
+          <dt>How do web standard relate to web quality?</dt>
+          <dd>Since web standards were created to promote web quality, these are intimately related</dd>
+          <dt>Describe what Web Accessibility means. What steps you can take to make your pages more accessible?</dt>
+          <dd>Web accessibility is to make sure that everyone, inclluding people with physical and situational disabilities, and socio-economic restrictions on internet bandwidth can all access your site.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Sources</h2>
+        <dl>
+          <dt><a href="http://qualitylogic.com/what-we-test/web/">Quality Logic</a></dt>
+          <dt><a href="http://acqnotes.com/acqnote/careerfields/quality-assurance">AcqNotes</a></dt>
+          <dt><a href="http://maxdesign.com.au/news/checklist/">MaxDesign</a></dt>
+          <dt><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">W3C WAI</a></dt>
+        </dl>
+      </section>
+    </main>
+    <footer>
+      &copy;Roger Lemmon 2019!
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- If you are wanting to use includes throughout your site, you'll have to change the above link to be whatever 
+      location your script is in. For me, it would be "/bit112-fall-2019/scripts/includes.js" because my site is 
+      https://alboss-cascadia.github.io/bit112-fall-2019/ -->
+
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>

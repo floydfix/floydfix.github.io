@@ -1,0 +1,289 @@
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <style type="text/css">
+      body{
+        background-color: var(--color1);
+      }
+      .a {
+        float: right;
+        width: 350px;
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+        pointer-events: none;
+      }
+      li {
+        float: left;
+        width: 350px;
+        height: 50px;
+        border: 2px solid var(--color4);
+        -webkit-transform: skew(125deg);
+        -moz-transform: skew(125deg);
+        -o-transform: skew(125deg);
+        background: var(--color2);
+      }
+      li:hover {
+        background: var(--color3);
+      }
+      li.selected {
+        background: var(--color1);
+      }
+      .ab {
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>LemmonAde</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="ab">
+          <div class="a" href="/portfolio/index.html">Portfolio</div>
+          <div class="a" href="contact.html">Contact</div>
+          <div class="a" href="/blog/index.html">Blog</div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="project-plan">
+        <h1>Project plan</h1>
+        <dl>
+          <dt>Title</dt>
+          <dd><p>LemmonAde</p></dd>
+
+          <dt>Goal</dt>
+          <dd>
+            <p>
+              This site will be a new portfolio/blog site for my coding creations. 
+            </p>
+          </dd>
+          <dt>Target Audience</dt>
+          <dd>
+            <p>
+              Recruiters, prospective clients, and potential places of employment for me, Roger Lemmon. 
+            </p>
+          </dd>
+          <dt>Main Features</dt>
+          <dd>
+            <p>
+              Portfolio examples of my past projects, blog of things that interest me, links to other social media and code samples.
+            </p>
+          </dd>
+          <dt>Personality</dt>
+          <dd>
+            <p>Professional, sharp, strength</p>
+            <p>This will convey </p>
+          </dd>
+          <dt>Limiting Factors</dt>
+          <dd>
+            <p>
+              That I need more things to be able to put into my portfolio
+            </p>
+          </dd>
+        </dl>
+      </section>
+      <section id="development-guide">
+        <h1>Development guide</h1>
+        <h2>Site structure</h2>
+        <ul>
+          <li>
+            Root Directory
+            <ul>
+              <li>images directory – contains jpgs and gifs</li>
+              <li>styles directory – contains all of the style sheets</li>
+              <li>
+                index.html – home page for site, shows smaller screenshots of old projects
+              </li>
+              <li>
+                Footmarks - showing of Android apps
+              </li>
+              <li>
+                Thompson Reuters - showing LearnLive platform
+              </li>
+              <li>
+                Blog
+              </li>
+              <li>
+                Contact
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Visual representation of site structure</h2>
+        <ul class="structure">
+          <!-- displays as page icon unless you use class="folder" -->
+          <li class="folder">
+            Root Directory
+            <ul>
+              <li class="folder">images directory – contains jpgs and gifs</li>
+              <li class="folder">
+                styles directory – contains all of the style sheets
+              </li>
+              <li>
+                index.html – home page for site, shows smaller screenshots of old projects
+              </li>
+              <li>
+                Footmarks.html - showing of Android apps
+              </li>
+              <li>
+                ThompsonReuters.html - showing LearnLive platform
+              </li>
+              <li>
+                Blog.html
+              </li>
+              <li>
+                Contact.html
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2>Navigation elements</h2>
+        <p>
+          Navigation – There is a navigation bar on <span class="highlight">top center</span> that links to all pages in the site.
+        </p>
+        <p>
+          The home page is going to have a navigation in the center of the page to the specific example pages.
+        </p>
+        <h3>Navigation structure</h3>
+        <ul>
+          <li>
+            Portfolio
+            <ul>
+              <li>
+                6
+              </li>
+            </ul>
+          </li>
+          <li>
+            Blog
+            <ul>
+              <li>
+                  4
+              </li>
+            </ul>
+          </li>
+          <li>
+            Contact
+            <ul>
+              <li>
+                  4
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="design-guide">
+        <h1>Design guide</h1>
+        <h2>Color Palette</h2>
+        <p>
+          The following is the list of colors that may be used. Tints or changes
+          in opacity may also be used as long as they compliment each other.
+        </p>
+        <div class="colorcontainer">
+          <div class="color-item">
+            <p>Light Yellow</p>
+            <div class="color-chip" style="background-color: var(--color1)"></div>
+          </div>
+          <div class="color-item">
+            <p>Purple Blue</p>
+            <div class="color-chip" style="background-color: var(--color2)"></div>
+          </div>
+          <div class="color-item">
+            <p>Black Blue</p>
+            <div class="color-chip" style="background-color: var(--color3)"></div>
+          </div>
+          <div class="color-item">
+            <p>Brown Black</p>
+            <div class="color-chip" style="background-color: var(--color4)"></div>
+          </div>
+          <div class="color-item">
+            <p>Black</p>
+            <div class="color-chip" style="background-color: var(--color5)"></div>
+          </div>
+        </div>
+
+        <h2>Media assets</h2>
+        <h3>General Guidelines</h3>
+        <ul>
+          <li>
+            <p>Images optimized as JPG using the Photoshop save for web feature to
+            determine the best choice. Photos generally saved as JPG.</p>
+            <p>Screen shots of Portfolio Items that I took</p>
+            <p>Screen shots of Portfolio items that are from others sites, used with permission</p>
+          </li>
+        </ul>
+        <h2>Styles guide</h2>
+        <dl class="styles-guide">
+          <dt>Background</dt>
+          <dd>
+            <p>Background is light yellow</p>
+          </dd>
+          <dt>Default font</dt>
+          <dd>
+            <p>Text is black, 14 pixels</p>
+            <p class="code">p { font-size: 14px; color: var(--color5);}</p>
+          </dd>
+          <dt>Navigation</dt>
+          <dd>
+            <p>
+              The navigation section is centered in the top of the page, with evenly spaced nav items. With the Logo careully tucked into the top left corner of the page (0 margin/padding)
+            </p>
+          </dd>
+          <dt>Content</dt>
+          <dd>
+            <p>
+              Content will have a Brown black shadow.
+            </p>
+          </dd>
+          <dt>Links</dt>
+          <dd>
+            <p>
+              Links will be Purple blue. On hover, they will have a light blue
+              background and a blue border.</p>
+            <p></p>
+          </dd>
+        </dl>
+        <h2>Wireframe/Layout sketch</h2>
+        <img src="newportfoliodesign_files/layout.png" alt="Site layout sketch; email me for details if you can't see it">
+      </section>
+    </main>
+    <footer>
+      ©2019 Roger Lemmon
+    </footer>
+    <!-- Enable includes -->
+    <script src="newportfoliodesign_files/includes.js"></script>
+
+    <!-- Script below includes file date update -->
+
+    <script>
+      includeHTML();
+      // get last updated date as a new date object
+      var modDate = new Date(document.lastModified);
+      // set up some formatting options
+      var options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      };
+      // format it
+      var modDateString = modDate.toLocaleDateString("en-US", options);
+      // display it in the document
+      document.getElementById("modified").innerHTML =
+        "Updated: " + modDateString;
+    </script>
+  
+
+</body></html>
